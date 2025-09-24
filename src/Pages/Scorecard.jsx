@@ -17,6 +17,7 @@ export function Scorecard(){
                 {/* Implement Search Box as seen
                     - As long as div is here, shadowed rectangle will appear on web page*/}
             </div>
+            <div className={"nav-buttons"}></div>
             <div className={"container"}>
                 <div className={"left"}>
                     <div className={"filter"}>
