@@ -1,4 +1,6 @@
 import "./Scorecard.css"
+import star from "../assets/Images/ratingStar.png"
+import dullStar from "../assets/Images/ratingStarGrey.png"
 
 export function Scorecard(){
     return (
@@ -53,64 +55,126 @@ export function Scorecard(){
                             <tr>
                                 <td className={"numRow"}>1</td>
                                 <td><span className={"Hospital"}>Emory Hospital</span><br />Atlanta</td>
-                                <td className={"Grade"}>A</td>
+                                <td className={"Grade"}>
+                                    <img src={star} alt="A" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                </td>
                                 <td><button className={"viewButton"}>View</button></td>
                             </tr>
                             <tr>
                                 <td className={"numRow"}>2</td>
                                 <td><span className={"Hospital"}>Emory St. Joseph's</span><br />Atlanta</td>
-                                <td className={"Grade"}>A</td>
+                                <td className={"Grade"}>
+                                    <img src={star} alt="A" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                </td>
                                 <td><button className={"viewButton"}>View</button></td>
                             </tr>
                             <tr>
                                 <td className={"numRow"}>3</td>
                                 <td><span className={"Hospital"}>North Georgia Medical</span><br />Gainesville</td>
-                                <td className={"Grade"}>A</td>
+                                <td className={"Grade"}>
+                                    <img src={star} alt="A" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                </td>
                                 <td><button className={"viewButton"}>View</button></td>
                             </tr>
                             <tr>
                                 <td className={"numRow"}>4</td>
                                 <td><span className={"Hospital"}>Piedmont Atlanta</span><br />Atlanta</td>
-                                <td className={"Grade"}>A</td>
+                                <td className={"Grade"}>
+                                    <img src={star} alt="A" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                </td>
                                 <td><button className={"viewButton"}>View</button></td>
                             </tr>
                             <tr>
                                 <td className={"numRow"}>5</td>
                                 <td><span className={"Hospital"}>Emory University Midtown</span><br />Atlanta</td>
-                                <td className={"Grade"}>A</td>
+                                <td className={"Grade"}>
+                                    <img src={star} alt="A" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                </td>
                                 <td><button className={"viewButton"}>View</button></td>
                             </tr>
                             <tr>
                                 <td className={"numRow"}>6</td>
                                 <td><span className={"Hospital"}>Wellstar Kennestone</span><br />Marietta</td>
-                                <td className={"Grade"}>A</td>
+                                <td className={"Grade"}>
+                                    <img src={star} alt="A" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                </td>
                                 <td><button className={"viewButton"}>View</button></td>
                             </tr>
                             <tr>
                                 <td className={"numRow"}>7</td>
                                 <td><span className={"Hospital"}>Piedmont Athens Regional</span><br />Athens</td>
-                                <td className={"Grade"}>B</td>
+                                <td className={"Grade"}>
+                                    <img src={star} alt="B" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={dullStar} alt="" className={"ratingStar"}/>
+                                </td>
                                 <td><button className={"viewButton"}>View</button></td>
                             </tr>
                             <tr>
                                 <td className={"numRow"}>8</td>
                                 <td><span className={"Hospital"}>Northside Hospital Forsyth</span><br />Cumming</td>
-                                <td className={"Grade"}>B</td>
+                                <td className={"Grade"}>
+                                    <img src={star} alt="B" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={dullStar} alt="" className={"ratingStar"}/>
+                                </td>
                                 <td><button className={"viewButton"}>View</button></td>
                             </tr>
                             <tr>
                                 <td className={"numRow"}>9</td>
                                 <td><span className={"Hospital"}>Piedmont Fayette</span><br />Fayetville</td>
-                                <td className={"Grade"}>B</td>
+                                <td className={"Grade"}>
+                                    <img src={star} alt="B" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={star} alt="" className={"ratingStar"}/>
+                                    <img src={dullStar} alt="" className={"ratingStar"}/>
+                                </td>
                                 <td><button className={"viewButton"}>View</button></td>
                             </tr>
                         </tbody>
                     </table>
                     {/*Previous, 1, 2, 3... Next*/}
+                    <div className={"tableNav"}>
+                        <button>Prev</button>
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>...</button>
+                        <button>19</button>
+                        <button>Next</button>
+                    </div>
 
                 </div>
             </div>
-
         </div>
     )
 }

@@ -116,7 +116,7 @@ html, body {
     text-align: left;
 }
 .th2{
-    width: 100px;
+    width: 180px;
 }
 
 .numRow{
@@ -140,4 +140,24 @@ td{
 .Grade{
     text-align: center;
 }
+.ratingStar{
+    width: 30px;
+    height: 30px;
+}
+
+.tableNav{
+    display: flex;
+    justify-content: center;
+}
+.tableNav button{
+    color: #7A7A7A;
+    font-size: 25px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-family: inherit;
+    margin: 15px;
+}
+
 
